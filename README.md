@@ -14,7 +14,17 @@ The skill distinguishes user-reported material, externally generated charts, cal
 
 Giving someone this repository link lets ChatGPT inspect the source, but does not automatically install the plugin into their account.
 
-For local testing, the recipient can clone or download the repository and add it to a supported local marketplace or Codex desktop setup.
+For local testing with Codex CLI and the ChatGPT desktop app, add the repository as a marketplace:
+
+```powershell
+codex plugin marketplace add https://github.com/ArcaneParadigm/Higher-Self-Generator.git --ref main
+codex plugin list
+codex plugin add oracle-codex@higher-self-generator
+```
+
+Then restart the ChatGPT desktop app, open the Plugins Directory, select **Higher Self Generator**, and install **ORACLE Higher Self Generator**. Start a new chat and ask it to create a Higher Self Codex. The repository also includes `.agents/plugins/marketplace.json`, which is the catalog used by this installation flow.
+
+If the repository remains private, the recipient must have GitHub access and an authenticated Git client. A public repository is required for unauthenticated sharing.
 
 For broad public installation, submit the plugin through OpenAI's plugin submission portal. After review and publication, users install it from the shared Plugins Directory.
 

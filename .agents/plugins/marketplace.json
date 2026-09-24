@@ -1,0 +1,21 @@
+{
+  "name": "higher-self-generator",
+  "interface": {
+    "displayName": "Higher Self Generator"
+  },
+  "plugins": [
+    {
+      "name": "oracle-codex",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ArcaneParadigm/Higher-Self-Generator.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
