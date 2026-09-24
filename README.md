@@ -40,10 +40,8 @@ The skill distinguishes user-reported material, externally generated charts, cal
 
 ## Sharing and installation
 
-Giving someone this repository link lets ChatGPT inspect the source, but does not automatically install the plugin into their account.
+This public repository includes `.agents/plugins/marketplace.json`, so anyone with Codex CLI or the ChatGPT desktop app can add the GitHub marketplace and install the plugin using the commands above.
 
-The repository also includes `.agents/plugins/marketplace.json`, which is the catalog used by this installation flow.
-
-For broad public installation, submit the plugin through OpenAI's plugin submission portal. After review and publication, users install it from the shared Plugins Directory.
+OpenAI submission is optional and only applies if you want the plugin reviewed and listed in the universal shared Plugins Directory. GitHub marketplace installation does not require that separate publication step.
 
 This repository currently contains a skills-only plugin. No MCP server, authentication service, database, or hosted endpoint is included.
