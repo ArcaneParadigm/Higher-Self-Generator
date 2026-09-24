@@ -6,6 +6,8 @@ A provenance-aware skills-only plugin for guided Higher Self Codex interviews, s
 
 This repository is a Codex/ChatGPT plugin marketplace. The quickest install is:
 
+Open **PowerShell**, **Windows Terminal**, or the **Codex integrated terminal** on the computer where Codex is installed. Paste these commands one at a time:
+
 ```powershell
 codex plugin marketplace add https://github.com/ArcaneParadigm/Higher-Self-Generator.git --ref main
 codex plugin add oracle-codex@higher-self-generator
