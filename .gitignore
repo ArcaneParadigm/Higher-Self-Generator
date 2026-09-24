@@ -1,0 +1,8 @@
+# Private conversation/source PDFs are reference material, not distributable plugin files.
+docs/Create_Higher_Self_Codex.pdf
+docs/Create_Oracle_Plugin.pdf
+
+# Generated package artifacts.
+*.zip
+dist/
+release/

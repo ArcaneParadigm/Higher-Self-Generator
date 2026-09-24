@@ -1,0 +1,27 @@
+{
+  "name": "oracle-codex",
+  "version": "1.0.3",
+  "description": "A provenance-aware Higher Self Codex skill for reflective oracle guidance and symbolic identity portraits.",
+  "author": {
+    "name": "The Arcanum"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ORACLE Higher Self Generator",
+    "shortDescription": "Create a reflective, provenance-aware Higher Self Codex.",
+    "longDescription": "Guide users through an adaptive identity interview, distinguish user-reported, calculated, verified, and interpretive material, and create a symbolic Higher Self Codex or cinematic portrait prompt with respectful spiritual context.",
+    "developerName": "The Arcanum",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Reflection",
+      "Image generation"
+    ],
+    "defaultPrompt": [
+      "Create a Higher Self Codex from my birth details and lived identity.",
+      "Guide me through a provenance-aware oracle identity interview.",
+      "Help me design a symbolic Higher Self portrait or schematic."
+    ],
+    "brandColor": "#151B3D"
+  }
+}
