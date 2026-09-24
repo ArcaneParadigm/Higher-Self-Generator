@@ -1,7 +1,9 @@
 # Local documentation and conversation exports are reference material, not distributable plugin files.
 docs/
 
-# Generated package artifacts.
+# Generated package artifacts: keep the shareable release archive in Git.
 *.zip
 dist/
+!dist/
+!dist/oracle-codex-*.zip
 release/
